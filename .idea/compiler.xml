@@ -13,13 +13,6 @@
         <module name="notification-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ewallet" target="1.5" />
-      <module name="notification-service" target="17" />
-      <module name="transaction-service" target="17" />
-      <module name="user-service" target="17" />
-      <module name="wallet-services" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

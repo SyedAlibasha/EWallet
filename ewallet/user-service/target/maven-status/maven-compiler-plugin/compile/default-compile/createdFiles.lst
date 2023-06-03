@@ -1,0 +1,10 @@
+com\example\services\User.class
+com\example\services\UserRequest.class
+com\example\services\UserService.class
+com\example\services\UserRepository.class
+com\example\services\UserApplication.class
+com\example\services\UserController.class
+com\example\services\UserNotFoundException.class
+com\example\services\Config.class
+com\example\services\User$UserBuilder.class
+com\example\services\UserRequest$UserRequestBuilder.class

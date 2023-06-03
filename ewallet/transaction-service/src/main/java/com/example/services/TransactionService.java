@@ -41,7 +41,7 @@ public class TransactionService {
                 .build();
         transactionRepository.save(transaction);
         System.out.println("1 Transaction in TS"+transaction);
-        //kafka
+        //kafka producer
         JSONObject jsonObject=new JSONObject();
         jsonObject.put("fromUser",transaction.getFromUser());
         jsonObject.put("toUser",transaction.getToUser());

@@ -22,8 +22,8 @@ public class EmailService {
         JSONObject jsonObject=objectMapper.readValue(msg,JSONObject.class);
         String email= (String) jsonObject.get("email");
         String message= (String) jsonObject.get("message");
-        System.out.println("Email from NS "+email);
-        System.out.println("Message from NS "+message);
+        System.out.println("Email from NotificationService "+email);
+        System.out.println("Message from NotificationService "+message);
         simpleMailMessage.setFrom("noreplyewallet2023@gmail.com");
         simpleMailMessage.setTo(email);
         simpleMailMessage.setSubject("Transaction Email");
